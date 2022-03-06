@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>JordanShoes</title>
+</head>
+<body>
+
+    <header class="header">
+        <h6 class="header_title">Ganhe R$ 10,00 de desconto no frete</h6>
+    </header>
+
+    <article class="underHeader">
+        <h4 class="underHeader_title">JordanShoes</h4>
+    </article>
+
+    <figure class="banner">
+        <h2 class="banner_title">A melhor loja de Jordan</h2>
+        <div id="typed-strings">
+            <p>O tênis Jordan é fruto de uma velha e forte parceria
+                 entre a Nike e o jogador Michael Jordan.</p>
+        </div>
+        <p id="typed"></p>
+    </figure>
+
+    <main class="content">
+        <section class="content_text">
+            <h3 class="content_text_title">Destaques</h3>
+            <p class="content_text_subtitle">Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado.</p>
+        </section>
+        <section class="content_grid">
+            <div class="content_grid_box">
+                <img src="./img/1.png" alt="shoe1">
+            </div>
+            <div class="content_grid_box">
+                <img src="./img/2.png" alt="shoe2">
+            </div>
+            <div class="content_grid_box">
+                <img src="./img/3.png" alt="shoe3">
+            </div>
+            <div class="content_grid_box">
+                <img src="./img/4.png" alt="shoe4">
+            </div>
+            <div class="content_grid_box">
+                <img src="./img/5.png" alt="shoe5">
+            </div>
+            <div class="content_grid_box">
+                <img src="./img/6.png" alt="shoe6">
+            </div>
+            <div class="content_grid_box">
+                <img src="./img/7.png" alt="shoe7">
+            </div>
+            <div class="content_grid_box">
+                <img src="./img/8.png" alt="shoe8">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h5 class="footer_title">Todos os direitos reservados.</h5>
+    </footer>
+
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            startDelay: 1600,
+            typeSpeed: 30,
+            showCursor: false,
+        });
+    </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            distance: '50px',
+            duration: 2000,
+            reset: false
+        });
+
+        ScrollReveal().reveal('.content_text', { delay: 200 });
+        ScrollReveal().reveal('.content_grid', { delay: 300 });
+        ScrollReveal().reveal('.content_grid_box_img', { delay: 400 });
+    </script>
+
+</html>
