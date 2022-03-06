@@ -171,11 +171,11 @@ input:focus {
 
 .content .content_grid .content_grid_box img{
   width: 250px;
+  transition: 2s all ease;
 }
 
-.content_grid_box:hover img{
+.content_grid_box img:hover{
   transform: scale(1.2);   
-  transition: 1s all ease; 
 }
 
 .footer{
