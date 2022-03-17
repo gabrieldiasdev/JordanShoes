@@ -2,7 +2,7 @@
 
 ## 💻 _JordanShoes_
 
-Repositório criado para armazenar o desafio 1 proposto por Iuri Silva criador da comunidade Codelândia no Discord.\
+Repositório criado para armazenar o desafio 02 proposto por Iuri Silva criador da comunidade Codelândia no Discord.\
 
 ## 💻  Projeto desenvolvido
 <a href="https://gabrieldiasdev.github.io/JordanShoes/" target="_blank">Acesse o projeto</a>
